@@ -1,0 +1,31 @@
+{
+    "name": "3slab/vdm-library-elastic-transport-bundle",
+    "description": "Vdm Elastic Transport",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jonathan Bouzekri",
+            "email": "jonathan.bouzekri@suez.com"
+        },
+        {
+            "name": "Julian Marié",
+            "email": "julian.marie@free.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vdm\\Bundle\\LibraryElasticTransportBundle\\": ""
+        }
+    },
+    "require": {
+        "3slab/vdm-library-bundle": "^2.0@beta",
+        "elasticsearch/elasticsearch": "^7.0"
+    },
+    "require-dev": {
+        "ext-xml": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9"
+    }
+}
