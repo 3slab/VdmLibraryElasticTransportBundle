@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "3slab/vdm-library-bundle": "^2.0@beta",
+        "3slab/vdm-library-bundle": "^3.0",
         "elasticsearch/elasticsearch": "^7.0"
     },
     "require-dev": {
